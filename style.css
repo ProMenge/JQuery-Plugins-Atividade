@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+header{
+    background-color: #5f27cd;
+    padding: 16px 0;
+    color: #FFF;
+    display: flex;
+    border-bottom: 16px solid #341f97;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+section{
+
+    display: flex;
+    border: #119759 1px solid;
+    justify-content: center;
+
+    border: none;
+    padding: 20px; /* adiciona um pouco de espaço interno */
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    margin: 10px; /* Adiciona margem ao redor do container de tarefas */
+    border-radius: 8px; /* Bordas arredondadas */
+    background: #f7f7f7; /* Cor de fundo suave */
+}
+
+.form-campo {
+
+    margin: 10px 0;
+}
+
+.form-campo input{
+
+    width: 100%;
+    display: block;
+    padding: 5px;
+}
+
+.container {
+
+    max-width: 500px;
+    width: 100%;
+}
+
+
+
+button{
+
+    display: block;
+    padding: 8px 0;
+    border: none;
+    max-width: 120px;
+    width: 100%;
+    background-color: #119759;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.mensagemErro {
+
+    color: red;
+}
